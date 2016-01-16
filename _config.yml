@@ -30,10 +30,10 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: flandrade
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: feru
 skype_username:
 steam_nickname:
 google_plus_id:
@@ -45,7 +45,7 @@ paypal_url:
 flattr_button:
 
 # Post sharing icons
-show_sharing_icons: true
+show_sharing_icons: false
 # Change to 'true' to enable individual icons
 share_facebook: false
 share_twitter: false
