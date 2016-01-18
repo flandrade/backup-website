@@ -8,13 +8,13 @@ categories: research segmentation english
 
 Image segmentation is a fundamental task in computer vision in which images are divided into meaningful segments. However, despite some significant advances and extensive research in this field, the selection of segmentation algorithms is still a challenging task because people incorporate some semantic considerations in their evaluations that lead to more than one acceptable solution.
 
-<img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-01.jpg" width="100%"/>
+<img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-01.jpg" width="96%"/>
 
-<img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-02.jpg" width="33%"/> <img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-03.jpg" width="33%"/> <img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-04.jpg" width="33%"/>
+<img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-02.jpg" width="32%"/> <img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-03.jpg" width="32%"/> <img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-04.jpg" width="32%"/>
 
 In fact, interactive image segmentation improves results by adding prior knowledge from users into the process. The main task of users is to extract semantic objects from a determined image. In general, users define the object and its background by drawing bounding boxes or seeds (also known as scribbles or brush strokes).
 
-<img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-05.jpg" width="50%"/> <img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-07.jpg" width="50%"/>
+<img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-05.jpg" width="49%"/> <img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-07.jpg" width="49%"/>
 
 Although this user guidance improves segmentation results, it also makes harder to evaluate this kind of algorithms and, for this reason, some works present subjective results or use non-canonical evaluations. For example, most interactive segmentation evaluations use their own seeds, which do not allow a fair comparison of performance among segmentation algorithms.[^1]
 
