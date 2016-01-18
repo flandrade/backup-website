@@ -10,30 +10,31 @@ Image segmentation is a fundamental task in computer vision in which images are 
 
 <img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-01.jpg" width="100%"/>
 
-<img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-02.jpg" width="30%"/> <img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-03.jpg" width="30%"/> <img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-04.jpg" width="30%"/>
-
+<img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-02.jpg" width="33%"/> <img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-03.jpg" width="33%"/> <img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-04.jpg" width="33%"/>
 
 In fact, interactive image segmentation improves results by adding prior knowledge from users into the process. The main task of users is to extract semantic objects from a determined image. In general, users define the object and its background by drawing bounding boxes or seeds (also known as scribbles or brush strokes).
 
-Although this user guidance improves segmentation results, it also makes harder to evaluate this kind of algorithms and, for this reason, some works present subjective results or use non-canonical evaluations. For example, most interactive segmentation evaluations use their own seeds, which do not allow a fair comparison of performance among segmentation algorithms. [^1]
+<img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-05.jpg" width="50%"/> <img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-07.jpg" width="50%"/>
+
+Although this user guidance improves segmentation results, it also makes harder to evaluate this kind of algorithms and, for this reason, some works present subjective results or use non-canonical evaluations. For example, most interactive segmentation evaluations use their own seeds, which do not allow a fair comparison of performance among segmentation algorithms.[^1]
 
 Some approaches have been proposed to tackle this problem, but they all present drawbacks as detailed below:
 
 ### Datasets
 
-Even though the Berkeley segmentation dataset and benchmark are the extended evaluation criteria for automatic segmentation, it is not possible to identify objects and background from its ground-truth data as the dataset does not include a semantic interpretation. [^2] Instead, there are a couple of public datasets that facilitate comparison, but they do not provide user inputs required by the algorithms in order to get reproducible results:
+Even though the Berkeley segmentation dataset and benchmark are the extended evaluation criteria for automatic segmentation, it is not possible to identify objects and background from its ground-truth data as the dataset does not include a semantic interpretation.[^2] Instead, there are a couple of public datasets that facilitate comparison, but they do not provide user inputs required by the algorithms in order to get reproducible results:
 
-* __Weizmann segmentation database:__ [it](http://www.wisdom.weizmann.ac.il/~vision/Seg_Evaluation_DB/index.html) provides a suitable single object dataset for evaluation of interactive segmentation algorithms, but it does not provide user inputs. [^3]
+* __Weizmann segmentation database:__ [it](http://www.wisdom.weizmann.ac.il/~vision/Seg_Evaluation_DB/index.html) provides a suitable single object dataset for evaluation of interactive segmentation algorithms, but it does not provide user inputs.[^3]
 
-* __Grabcut database:__ [this dataset](http://research.microsoft.com/en-us/um/cambridge/projects/visionimagevideoediting/segmentation/grabcut.htm) contains 50 images, ground-truth data and user specified trimaps. However, these trimaps are neither optimal nor realistic inputs because they contain richer information, such as shape, and most of the pixels are previously labeled. Moreover, it would be difficult for users to create such trimaps. [^4]
+* __Grabcut database:__ [this dataset](http://research.microsoft.com/en-us/um/cambridge/projects/visionimagevideoediting/segmentation/grabcut.htm) contains 50 images, ground-truth data and user specified _trimaps_. However, these _trimaps_ are neither optimal nor realistic inputs because they contain richer information, such as shape, and most of the pixels are previously labeled. Moreover, it would be difficult for users to create such _trimaps_.[^4]
 
 ### User-experiments
 
-In these experiments, users were shown images with descriptions of the objects they were required to extract. [^5] Then, users marked foreground and background pixels using a platform designed for this purpose. However, these evaluations are time-consuming because they require a constant involvement of users and do not enable repeatability of results.
+In these experiments, users were shown images with descriptions of the objects they were required to extract.[^5] Then, users marked foreground and background pixels using a platform designed for this purpose. However, these evaluations are time-consuming because they require a constant involvement of users and do not enable repeatability of results.
 
 ### Automated evaluations
 
-Automated evaluations replace users with algorithms that emulate their behavior. [^6] [^7] These robot users emulate user interactions by generating scribbles. While robot-user evaluations measure effort by the number of required iterations for an accurate segmentation, they place the sequence of seeds according the outcome of each interaction and, therefore, generated seeds vary for different algorithms. This leads to the inability of obtaining repeatable results.
+Automated evaluations replace users with algorithms that emulate their behavior.[^6] [^7] These robot users emulate user interactions by generating scribbles. While robot-user evaluations measure effort by the number of required iterations for an accurate segmentation, they place the sequence of seeds according the outcome of each interaction and, therefore, generated seeds vary for different algorithms. This leads to the inability of obtaining repeatable results.
 
 ## My proposed approach
 
@@ -45,7 +46,7 @@ __NOTE:__ _This entry is the first of three notes. See the presentation entry fo
 
 [^1]: B. J.Wu,Y.Zhao,J.-Y.Zhu,S.Luo,andZ.Tu.Milcut:A sweeping line multiple instance learning paradigm for interactive image segmentation. In _Computer Vision and Pattern Recognition (CVPR), 2014 IEEE Conference on_, pages 256–263. IEEE, 2014.
 
-[^2]: P. Arbelaez, M. Maire, C. Fowlkes, and J. Malik. Contour detection and hierarchical image aegmentation. _Pattern Analysis and Machine Intelligence, IEEE Transactions on_, 33(5):898–916, 2011.
+[^2]: P. Arbelaez, M. Maire, C. Fowlkes, and J. Malik. Contour detection and hierarchical image segmentation. _Pattern Analysis and Machine Intelligence, IEEE Transactions on_, 33(5):898–916, 2011.
 
 [^3]: S. Alpert, M. Galun, R. Basri, and A. Brandt. Image segmentation by probabilistic bottom-up aggregation and cue integration. In _Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition_, June 2007.
 
