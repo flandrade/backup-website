@@ -30,7 +30,7 @@ In these experiments, users were shown images with descriptions of the objects t
 
 Automated evaluations replace users with algorithms that emulate their behavior. [^6] [^7] These robot users emulate user interactions by generating scribbles. While robot-user evaluations measure effort by the number of required iterations for an accurate segmentation, they place the sequence of seeds according the outcome of each interaction and, therefore, generated seeds vary for different algorithms. This leads to the inability of obtaining repeatable results.
 
-## My proposal approach
+## My proposed approach
 
 In summary, these evaluation methods should have considered user intervention to allow reproduction and comparison of results for further studies. For this reason, I introduced a novel seed-based user input dataset that extends the well-known GrabCut dataset and the [Geodesic Star convexity dataset](http://www.robots.ox.ac.uk/~vgg/research/iseg/#Dataset).
 
