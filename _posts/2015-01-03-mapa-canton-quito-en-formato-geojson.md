@@ -41,6 +41,6 @@ De hecho, no encontré en ningún otro sitio un mapa de Quito en formato GeoJSON
 
 El único mapa disponible en [Datos Abiertos](http://datosabiertos.quito.gob.ec/) de las administraciones zonales es un proyecto [ArcGIS](http://datosabiertos.quito.gob.ec/index.php/descargas). Fue necesario, por tanto, convertir estos archivos a GeoJSON a través de [shp2geojson.js](https://github.com/gipong/shp2geojson.js). Sin embargo, después de esta conversión, la ubicación de la ciudad no correspondía en el mapa de OpenStreetMap. Esto se solucionó actualizando las capas en [ArcGIS](https://www.arcgis.com/home/) en línea.
 
-El mapa de las parroquias lo construí utilizando la información de [OpenStreetMap](http://wiki.openstreetmap.org/wiki/WikiProject_Ecuador). Los límites fueron creados a partir de las relaciones OSM (OpenStreetMap). Los polígonos (GeoJSON) fueron creados con [esta herramienta](http://polygons.openstreetmap.fr/index.py).
+Utilicé la información de [OpenStreetMap](http://wiki.openstreetmap.org/wiki/WikiProject_Ecuador) para crear el mapa de las parroquias. Los límites fueron creados a partir de las relaciones OSM (OpenStreetMap). Los polígonos (GeoJSON) fueron creados con [esta herramienta](http://polygons.openstreetmap.fr/index.py).
 
 Finalmente, los datos de población y superficie fueron recopilados de [Ecuador en cifras](http://www.ecuadorencifras.gob.ec/informacion-censal-cantonal/) y [Datos Abiertos](http://datosabiertos.quito.gob.ec/).
