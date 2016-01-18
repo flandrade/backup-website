@@ -2,7 +2,9 @@
 layout:     post
 title:      Mapa del cantón Quito en formato GeoJSON
 date:       2015-01-03 21:30:00
-summary:    This is an empty post to illustrate the pagination component with Pixyll.
+summary:    Dos mapas de Quito en formato GeoJSON según sus [parroquias](https://raw.githubusercontent.com/flandrade/quito-crime-map/master/data/parroquias_quito.geojson) y [administraciones zonales](https://raw.githubusercontent.com/flandrade/quito-crime-map/master/data/zonales_quito.geojson)
+
+
 categories: maps projects español
 ---
 
