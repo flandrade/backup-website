@@ -22,7 +22,7 @@ Some approaches have been proposed to tackle this problem, but they all present 
 
 ### Datasets
 
-Even though the Berkeley segmentation dataset and benchmark are the extended evaluation criteria for automatic segmentation, it is not possible to identify objects and background from its ground-truth data as the dataset does not include a semantic interpretation.[^2] Instead, there are a couple of public datasets that facilitate comparison, but they do not provide user inputs required by the algorithms in order to get reproducible results:
+Even though the [Berkeley segmentation dataset](http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html) and benchmark are the extended evaluation criteria for automatic segmentation, it is not possible to identify objects and background from its ground-truth data as the dataset does not include a semantic interpretation.[^2] Instead, there are a couple of public datasets that facilitate comparison, but they do not provide user inputs required by the algorithms in order to get reproducible results:
 
 * __Weizmann segmentation database:__ [it](http://www.wisdom.weizmann.ac.il/~vision/Seg_Evaluation_DB/index.html) provides a suitable single object dataset for evaluation of interactive segmentation algorithms, but it does not provide user inputs.[^3]
 
