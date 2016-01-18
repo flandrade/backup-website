@@ -28,7 +28,7 @@ In these experiments, users were shown images with descriptions of the objects t
 
 ### Automated evaluations
 
-Automated evaluations replace users with algorithms that emulate their behavior. [^6][^7] These robot users emulate user interactions by generating scribbles. While robot-user evaluations measure effort by the number of required iterations for an accurate segmentation, they place the sequence of seeds according the outcome of each interaction and, therefore, generated seeds vary for different algorithms. This leads to the inability of obtaining repeatable results.
+Automated evaluations replace users with algorithms that emulate their behavior. [^6] [^7] These robot users emulate user interactions by generating scribbles. While robot-user evaluations measure effort by the number of required iterations for an accurate segmentation, they place the sequence of seeds according the outcome of each interaction and, therefore, generated seeds vary for different algorithms. This leads to the inability of obtaining repeatable results.
 
 ## My proposal approach
 
@@ -40,7 +40,7 @@ __NOTE:__ _This entry is the first of three notes. See the presentation entry fo
 
 [^1]: B. J.Wu,Y.Zhao,J.-Y.Zhu,S.Luo,andZ.Tu.Milcut:A sweeping line multiple instance learning paradigm for interactive image segmentation. In _Computer Vision and Pattern Recognition (CVPR), 2014 IEEE Conference on_, pages 256–263. IEEE, 2014.
 
-[ˆ2]: P. Arbelaez, M. Maire, C. Fowlkes, and J. Malik. Contour detection and hierarchical image aegmentation. _Pattern Analysis and Machine Intelligence, IEEE Transactions on_, 33(5):898–916, 2011.
+[^2]: P. Arbelaez, M. Maire, C. Fowlkes, and J. Malik. Contour detection and hierarchical image aegmentation. _Pattern Analysis and Machine Intelligence, IEEE Transactions on_, 33(5):898–916, 2011.
 
 [^3]: S. Alpert, M. Galun, R. Basri, and A. Brandt. Image segmentation by probabilistic bottom-up aggregation and cue integration. In _Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition_, June 2007.
 
