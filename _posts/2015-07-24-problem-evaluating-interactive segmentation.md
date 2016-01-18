@@ -8,9 +8,9 @@ categories: research segmentation english
 
 Image segmentation is a fundamental task in computer vision in which images are divided into meaningful segments. However, despite some significant advances and extensive research in this field, the selection of segmentation algorithms is still a challenging task because people incorporate some semantic considerations in their evaluations that lead to more than one acceptable solution.
 
-![desk](https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-01.jpg=100x20)
+<img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-01.jpg" width="100%"/>
 
-![desk](https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-01.jpg)![desk](https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-01.jpg)![desk](https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-01.jpg)
+<img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-02.jpg" width="30%"/> <img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-03.jpg" width="30%"/> <img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-04.jpg" width="30%"/>
 
 
 In fact, interactive image segmentation improves results by adding prior knowledge from users into the process. The main task of users is to extract semantic objects from a determined image. In general, users define the object and its background by drawing bounding boxes or seeds (also known as scribbles or brush strokes).
