@@ -7,6 +7,7 @@ baseurl:     ""
 url:         "http://ferandrade.com/"
 date_format: "%b %-d, %Y"
 permalink:   /blog/:categories/:year/:month/:day/:title.html
+paginate_path: "/blog/page:num"
 
 # Google services
 google_analytics:
