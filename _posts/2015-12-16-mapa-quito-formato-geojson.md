@@ -3,7 +3,8 @@ layout:     post
 title:      Mapa del cantón Quito en formato GeoJSON
 date:       2015-12-16 21:30:00
 summary:    Mapas de Quito en formato GeoJSON con límites de parroquias y administraciones zonales.
-categories: projects maps spanish
+categories: projects
+tags:       maps spanish
 ---
 
 Comparto a continuación dos mapas del cantón Quito en formato GeoJSON:

@@ -3,7 +3,8 @@ layout:     post
 title:      The Problem of Evaluating Interactive Segmentation
 date:       2015-07-24 17:50:40
 summary:    Despite some significant advances and extensive research, the selection of interactive segmentation algorithms is still a challenging task because people incorporate some semantic considerations that lead to more than one acceptable solution.
-categories: research segmentation english
+categories: research
+tags:       segmentation english
 ---
 
 Image segmentation is a fundamental task in computer vision in which images are divided into meaningful segments. However, despite some significant advances and extensive research in this field, the selection of segmentation algorithms is still a challenging task because people incorporate some semantic considerations in their evaluations that lead to more than one acceptable solution.

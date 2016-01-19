@@ -6,6 +6,7 @@ description: "Fernanda"
 baseurl:     ""
 url:         "http://ferandrade.com/"
 date_format: "%b %-d, %Y"
+permalink:   /blog/:categories/:year/:month/:day/:title.html
 
 # Google services
 google_analytics:
