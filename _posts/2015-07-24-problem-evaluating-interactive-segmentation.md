@@ -2,7 +2,7 @@
 layout:     post
 title:      The Problem of Evaluating Interactive Segmentation
 date:       2015-07-24 17:50:40
-summary:    Despite some significant advances and extensive research, the selection of interactive segmentation algorithms is still a challenging task because people incorporate some semantic considerations that lead to more than one acceptable solution.
+summary:    Research Note: Despite some significant advances and extensive research, the selection of interactive segmentation algorithms is still a challenging task because people incorporate some semantic considerations that lead to more than one acceptable solution.
 categories: research segmentation english
 ---
 
@@ -40,7 +40,7 @@ Automated evaluations replace users with algorithms that emulate their behavior.
 
 In summary, these evaluation methods should have considered user intervention to allow reproduction and comparison of results for further studies. For this reason, I introduced a novel seed-based user input dataset that extends the well-known GrabCut dataset and the [Geodesic Star convexity dataset](http://www.robots.ox.ac.uk/~vgg/research/iseg/#Dataset).
 
-__NOTE:__ _This entry is the first of three notes. See the presentation entry for more information._
+__NOTE:__ _This entry is the first of three notes. See the [presentation entry] for more information._
 
 ---
 
