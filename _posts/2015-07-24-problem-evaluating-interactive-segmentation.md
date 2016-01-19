@@ -40,7 +40,7 @@ Automated evaluations replace users with algorithms that emulate their behavior.
 
 In summary, these evaluation methods should have considered user intervention to allow reproduction and comparison of results for further studies. For this reason, I introduced a novel seed-based user input dataset that extends the well-known GrabCut dataset and the [Geodesic Star convexity dataset](http://www.robots.ox.ac.uk/~vgg/research/iseg/#Dataset).
 
-__NOTE:__ _This entry is the first of three notes. See the [presentation entry] for more information._
+__NOTE:__ _This entry is the first of two notes. See the [presentation entry](http://flandrade.github.io/research/segmentation/english/2015/07/24/evaluation-interactive-image-segmentation-/) for more information._
 
 ---
 
