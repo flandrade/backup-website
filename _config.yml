@@ -4,7 +4,7 @@ email:       flandradeg@gmail.com
 author:      Fernanda Andrade
 description: "Fernanda"
 baseurl:     ""
-url:         "http://ferandrade.com/blog"
+url:         "http://ferandrade.com/"
 date_format: "%b %-d, %Y"
 
 # Google services
