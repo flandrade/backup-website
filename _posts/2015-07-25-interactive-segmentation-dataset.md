@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      Novel Dataset for Interactive Segmentation Evaluation
-date:       2015-07-24 18:32:52
-summary:    Research Note: A novel seed-based user input dataset that extends the well-known GrabCut dataset and the Geodesic Star convexity dataset.
+date:       2015-07-25 18:32:52
+summary:    A novel seed-based user input dataset that extends the well-known GrabCut dataset and the Geodesic Star convexity dataset.
 categories: research segmentation english
 ---
 

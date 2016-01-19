@@ -2,7 +2,7 @@
 layout:     post
 title:      The Problem of Evaluating Interactive Segmentation
 date:       2015-07-24 17:50:40
-summary:    Research Note: Despite some significant advances and extensive research, the selection of interactive segmentation algorithms is still a challenging task because people incorporate some semantic considerations that lead to more than one acceptable solution.
+summary:    Despite some significant advances and extensive research, the selection of interactive segmentation algorithms is still a challenging task because people incorporate some semantic considerations that lead to more than one acceptable solution.
 categories: research segmentation english
 ---
 

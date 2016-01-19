@@ -2,9 +2,12 @@
 layout:     post
 title:      Evaluation of seed-based Interactive Segmentation Algorithms
 date:       2015-07-24 14:57:10
-summary:    Despite some significant advances and extensive research, the selection of interactive segmentation algorithms is still a challenging task because people incorporate some semantic considerations that lead to more than one acceptable solution.
+summary:    In this paper, we present an objective and empirical evaluation of seed-based interactive segmentation algorithms. We first compare popular metrics that are employed in image-segmentation evaluations in order to define which one reflects most accurately the performance of segmentation algorithms. Then, in the aim of presenting reproducible results, we introduce a novel seed-based user input dataset that extends the well-known GrabCut dataset.
 categories: research segmentation english
 ---
+
+<img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-01.jpg" width="49%"/> <img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-08.jpg" width="49%"/>
+<img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-05.jpg" width="49%"/> <img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-06.jpg" width="49%"/>
 
 Extensive research has been conducted in an effort to evaluate methods and techniques for image segmentation. However, while most literature has focused on evaluating automatic and semi-automatic algorithms, works evaluating interactive segmentation algorithms are less numerous. Note that interactive segmentation can improve results by adding prior knowledge from users into the process. Although this user guidance improves segmentation results, it also makes difficult to conduct objective evaluations. For this reason, some works only present non-canonical evaluations.
 
@@ -18,3 +21,7 @@ In this paper, we present an objective and empirical evaluation of seed-based in
 
 * The Problem of Evaluating Interactive Segmentation
 * Novel Dataset for Interactive Segmentation Evaluation
+
+## Publication
+
+* Andrade F., Carrera E. V., "Supervised evaluation of seed-based interactive image segmentation algorithms", In _Proceedings of the 20th Symposium on Image, Signal Processing, and Artificial Vision_, ISBN 978-1-4673-9461-1, Bogota, Colombia, pp. 225-231, September 2015. ([IEEE](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7330447))
