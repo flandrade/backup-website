@@ -2,7 +2,7 @@
 layout:     post
 title:      Evaluation of Seed-Based Interactive Segmentation Algorithms
 date:       2015-07-24 14:57:10
-summary:    In this paper, we present an objective and empirical evaluation of seed-based interactive segmentation algorithms. We first compare popular metrics that are employed in image-segmentation evaluations in order to define which one reflects most accurately the performance of segmentation algorithms. Then, in the aim of presenting reproducible results, we introduce a novel seed-based user input dataset that extends the well-known GrabCut dataset.
+summary:    In this paper, we present an objective and empirical evaluation of seed-based interactive segmentation algorithms. We first compare popular metrics that are employed in image-segmentation evaluations in order to define which one reflects most accurately the performance of segmentation algorithms. Then, in the aim of presenting reproducible results, we introduce a novel seed-based user input dataset that extends the well-known GrabCut dataset. Finally, we evaluate and contrast four state-of-the-art interactive segmentation algorithms.
 categories: research segmentation english
 ---
 
