@@ -5,6 +5,13 @@
 
 .p-main, .p-title {
   display: block;
-  width: 45%;
   float: left;
+}
+
+.p-main {
+  width: 60%;
+}
+
+.p-title {
+  width: 30%;
 }
