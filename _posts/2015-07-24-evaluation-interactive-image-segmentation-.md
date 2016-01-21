@@ -25,7 +25,7 @@ In this paper, we present an objective and empirical evaluation of seed-based in
 
 ## Algorithm Implementations
 
-Comming soon…
+Coming soon…
 
 ## Publication
 
