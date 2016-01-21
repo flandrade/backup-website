@@ -23,3 +23,10 @@
 .flex-last  { order: 99999 }
 @media (--breakpoint-sm) {
   .sm-flex { display: flex }
+}
+@media (--breakpoint-md) {
+  .md-flex { display: flex }
+}
+@media (--breakpoint-lg) {
+  .lg-flex { display: flex }
+}
