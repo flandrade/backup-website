@@ -4,20 +4,14 @@
 @charset "UTF-8";
 
 /*!
-* Pixyll - A simple, beautiful Jekyll theme that's mobile first.
-* @author John Otander <johnotander@gmail.com> (http://johnotander.com/)
-* @link https://github.com/johnotander/pixyll
-* @license MIT
+* Theme based on Pixyll.
+* @author Fernanda Andrade, John Otander (Pixyll)
 */
 
 
-
 @import 'variables';
-
 @import 'basscss';
-
 @import 'base';
-
 @import 'links';
 @import 'positions';
 @import 'clearfix';
@@ -35,3 +29,4 @@
 @import 'gists';
 @import 'measure';
 @import 'pagination';
+@import 'grid';
