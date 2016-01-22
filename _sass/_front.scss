@@ -13,7 +13,11 @@
 }
 
 .projects h2, {
-  font-size: 2.998rem;
+  font-size: 2.5rem;
+}
+
+.projects {
+  background: linear-gradient(#8e44ad, #c0392b);
 }
 
 .p-project {
@@ -22,7 +26,7 @@
 
 .p-main {
   width: 70%;
-  background: linear-gradient(#8e44ad, #c0392b)
+
 }
 
 .p-title {
