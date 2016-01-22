@@ -1,4 +1,13 @@
-.projects{
+.presentation h1, h2, h3{
+  margin-top: 0;
+  margin-bottom: 0.4em;
+}
+
+.presentation h1, h2{
+  font-family: $monospace-font-family;
+}
+
+.projects h2, presentation h3{
   font-family: $font-family;
 }
 
