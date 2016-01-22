@@ -1,4 +1,4 @@
-.presentation h1, h2, h3{
+.presentation h1, h2, h3, .github-projects h3{
   margin-top: 0;
   margin-bottom: 0.4em;
 }
@@ -20,7 +20,12 @@
   background: linear-gradient(#8e44ad, #c0392b);
 }
 
+.github-projects {
+  background: linear-gradient(to right, #4b6cb7, #182848);
+}
+
 .p-project {
+  border-top: 25px solid white;
   width: 100%;
 }
 
