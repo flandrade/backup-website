@@ -28,11 +28,11 @@
   text-decoration: none;
 }
 
-.github-projects-element{
+.github-projects-element {
   margin: 10px 0;
 }
 
-.github-projects-element(2n){
+.github-projects-element:nth-child(2n) {
   background: #f7f7f7;
 }
 
