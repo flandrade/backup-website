@@ -34,6 +34,6 @@ layout: default
 <div class="github-projects-list mt3">
   {% for repository in site.github.public_repositories %}
   <div id="github-projects-title"><a href="{{ repository.html_url }}">{{ repository.name }}</a> </div>
-  <div id="github-projects-description">{{ repository.language }} </div>
+  <div id="github-projects-description">{{ repository.description }} </div>
   {% endfor %}
 </div>
