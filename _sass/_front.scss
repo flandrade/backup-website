@@ -7,7 +7,7 @@
   font-family: $heading-font-family;
 }
 
-.projects h2, .presentation h3, .github-projects h3{
+.projects h2, .presentation h3, .github-projects h3, .github-projects-list h4{
   font-family: $font-family;
   font-weight: 500;
 }
@@ -24,7 +24,7 @@
   background: linear-gradient(to right, #4b6cb7, #182848);
 }
 
-.github-projects a {
+.github-projects-list a {
   text-decoration: none;
 }
 
@@ -34,10 +34,6 @@
 
 .github-projects-element:nth-child(2n) {
   background: #f7f7f7;
-}
-
-.github-projects-title{
-  font-weight: 600;
 }
 
 .github-projects-description{
