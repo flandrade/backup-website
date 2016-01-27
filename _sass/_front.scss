@@ -1,4 +1,4 @@
-.presentation h1, h2, h3 {
+.presentation h1, h2, h3, h4 {
   margin-top: 0;
   margin-bottom: 0.4rem;
 }
@@ -28,12 +28,16 @@
   text-decoration: none;
 }
 
+.github-projects-icon {
+  font-size: 2.5rem;
+}
+
 .github-projects-element:nth-child(2n) {
   background: #f7f7f7;
 }
 
 .github-projects-description {
-  font-size: 0.7em;
+  font-size: 0.7rem;
 }
 
 .p-project {
