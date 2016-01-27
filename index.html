@@ -36,10 +36,11 @@ layout: default
   <div class="github-projects-element mt1 mb1 flex">
     <div class="p1 border github-projects-icon">
       {% assign summary = repository.description | split: '(' %}
+      {% assign description = summary[0] %}
     </div>
     <div class="p1 border">
       <h4><a href="{{ repository.html_url }}">{{ repository.name }}</a> </h4>
-      <div class="github-projects-description mt1">{% summary[0] %} </div>
+      <div class="github-projects-description mt1">{{ description }} </div>
     </div>
   </div>
   {% endfor %}
