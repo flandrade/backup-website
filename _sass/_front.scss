@@ -24,20 +24,8 @@
   background: linear-gradient(to right, #4b6cb7, #182848);
 }
 
-.github-projects-list{
-  margin: 0;
-}
-
 .github-projects-list a {
   text-decoration: none;
-}
-
-.github-projects-element, .github-projects-description {
-  margin: 0.5em 0;
-}
-
-.github-projects-element {
-  padding: 0.2em;
 }
 
 .github-projects-element:nth-child(2n) {
@@ -45,7 +33,7 @@
 }
 
 .github-projects-description {
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 .p-project {
