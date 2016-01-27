@@ -32,8 +32,7 @@ layout: default
   <h3 class="px4 py2 white"><i class="fa fa-github"></i> Repositories</h3>
 </div>
 <div class="github-projects-list mt3">
-  The project is called {{ site.github.project_title }}
   {% for repository in site.github.public_repositories %}
-  <p>{{ repository.full_name }} </p>
+  <p><a href="{{ repository.html_url }}">{{ repository.name }}</a> </p>
   {% endfor %}
 </div>
