@@ -24,6 +24,27 @@
   background: linear-gradient(to right, #4b6cb7, #182848);
 }
 
+.github-projects a {
+  text-decoration: none;
+}
+
+.github-projects-element{
+  margin: 10px 0;
+}
+
+.github-projects-element(2n){
+  background: #f7f7f7;
+}
+
+.github-projects-title{
+  font-weight: 600;
+}
+
+.github-projects-description{
+  margin: 10px 0;
+  font-size: 0.8em;
+}
+
 .p-project {
   border-top: 2.5rem solid white;
   width: 100%;
