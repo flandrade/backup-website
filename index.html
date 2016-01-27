@@ -35,12 +35,14 @@ layout: default
   {% for repository in site.github.public_repositories %}
   <div class="github-projects-element mt1 mb1 flex">
     <div class="p1 border github-projects-icon">
-      {% assign summary = repository.description | split: '(' %}
+      {% assign summary = repository.description | split: '#' %}
       {% assign description = summary[0] %}
+      {% assign icono = summary[1] %}
+      <i class="devicon-{{ icono }}-plain"></i>
     </div>
     <div class="p1 border">
       <h4><a href="{{ repository.html_url }}">{{ repository.name }}</a> </h4>
-      <div class="github-projects-description mt1">{{ description }} </div>
+      <div class="github-projects-description mt1">{{ description }}</div>
     </div>
   </div>
   {% endfor %}
