@@ -1,53 +1,78 @@
-/* Browser mockup code
- * Contribute: https://gist.github.com/jarthod/8719db9fef8deb937f4f
- * Live example: https://updown.io
- */
-
-.browser-mockup {
-  border-top: 2em solid rgba(230, 230, 230, 0.7);
-  box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
+/* =============================================================================
+  COMMON STUFF FOR CSS DEVICES
+============================================================================= */
+.css-device {
   position: relative;
-  border-radius: 3px 3px 0 0
+  margin: 0 auto;
 }
 
-.browser-mockup:before {
+.css-device__image {
   display: block;
-  position: absolute;
-  content: '';
-  top: -1.25em;
-  left: 1em;
-  width: 0.5em;
-  height: 0.5em;
-  border-radius: 50%;
-  background-color: #f44;
-  box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
 }
 
-.browser-mockup.with-tab:after {
-  display: block;
-  position: absolute;
-  content: '';
-  top: -2em;
-  left: 5.5em;
-  width: 20%;
-  height: 0em;
-  border-bottom: 2em solid white;
-  border-left: 0.8em solid transparent;
-  border-right: 0.8em solid transparent;
+/* =============================================================================
+  BROWSER
+============================================================================= */
+.css-device--browser {
+  width: 100%;
+  /* max-width: 100%; set max width here if you need to. */
+  border-top: solid 36px #dfdfdf;
+  border-right: solid 2px #dfdfdf;
+  border-left: solid 2px #dfdfdf;
+  border-bottom: solid 2px #dfdfdf;
+  border-radius: 4px 4px 0 0;
 }
 
-.browser-mockup.with-url:after {
+.css-device--browser::before {
   display: block;
   position: absolute;
-  content: '';
-  top: -1.6em;
-  left: 5.5em;
-  width: calc(100% - 6em);
-  height: 1.2em;
+  top: -24px;
+  left: 12px;
+  width: 12px;
+  height: 12px;
+  background-color: #ff3366;
+  border-radius: 12px;
+  box-shadow: 0 0 0 0 #ff3366, 16px 0 0 0 #ffcc99, 32px 0 0 0 #33ff66;
+  content: "";
+}
+
+.css-device--browser::after {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: -27px;
+  right: 12px;
+  padding: 0 4px;
+  width: 180px;
+  height: 18px;
+  color: #b3b3b3;
+  background-color: #fff;
+  font-size: 12px;
+  line-height: 18px;
   border-radius: 2px;
-  background-color: white;
+  content: attr(data-url);
 }
 
-.browser-mockup > * {
-  display: block;
+@media all and (min-width: 480px) {
+  .css-device--browser {
+    border-top: solid 48px #dfdfdf;
+  }
+
+  .css-device--browser::before {
+    top: -30px;
+    box-shadow: 0 0 0 0 #ff3366, 24px 0 0 0 #ffcc99, 48px 0 0 0 #33ff66;
+  }
+
+  .css-device--browser::after {
+    top: -36px;
+    right: 12px;
+    padding: 0 8px;
+    width: 240px;
+    height: 24px;
+    line-height: 24px;
+  }
 }
