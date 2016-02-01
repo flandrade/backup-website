@@ -7,11 +7,11 @@
       </nav>
       <div class="clearfix"></div>
       {% assign showlinks = false %}
-      {% for tag in page.tags %}
-        {% if tag != 'about' and !='case' %}
-          {% assign showlinks  = 'social' %}
-      {% endfor %}
-      {% if site.show_social_icons and showlinks == true %}
+      {% for tag in page.tags %} {% if tag != 'about' and !='case' %}
+          {% assign showlinks  = true %}
+      {% endif %} {% endfor %}
+      
+      {% if site.show_social_icons and showlinks %}
         {% include social_links.html %}
       {% endif %}
     </div>
