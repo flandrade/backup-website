@@ -9,10 +9,9 @@
       {% assign showlinks = false %}
       {% for tag in page.tags %}
         {% if tag != 'about' and !='case' %}
-          {% if tag != 'about' and !='case' %}
-            {% assign showlinks  = 'social' %}
+          {% assign showlinks  = 'social' %}
       {% endfor %}
-      {% if site.show_social_icons and showlinks  == true %}
+      {% if site.show_social_icons and showlinks == true %}
         {% include social_links.html %}
       {% endif %}
     </div>
