@@ -3,7 +3,6 @@
 ============================================================================= */
 .css-device {
   position: relative;
-  margin: 0 auto;
 }
 
 .css-device__image {
@@ -41,7 +40,7 @@
 }
 
 .css-device--browser::after {
-  display: block;
+  display: none;
   overflow: hidden;
   position: absolute;
   top: -27px;
