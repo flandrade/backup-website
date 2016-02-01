@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pagews
 title: About
 permalink: /about/
 tags: about
