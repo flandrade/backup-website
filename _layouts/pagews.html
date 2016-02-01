@@ -6,8 +6,10 @@ layout: default
     <h1 class="h2 center"><span class="social-title">{{ page.title }}</span></h1>
     <div class="block mx-auto" >
       {% if site.show_social_icons%}
-        {% include social_links.html %}
-        {% endif %}
+        <div class="social-icons">
+          {% include social_links.html %}
+        </div>
+      {% endif %}
     </div>
   </header>
   <article class="post-content">

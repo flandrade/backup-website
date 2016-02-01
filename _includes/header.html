@@ -6,11 +6,10 @@
         {% include navigation.html %}
       </nav>
       <div class="clearfix"></div>
-      {% assign showlinks = false %}
-      {% for tag in page.tags %} {% if tag != 'about' or tag !='case' or tag !='contact' %}
-          {% assign showlinks  = true %}
+      {% assign showlinks = true %}
+      {% for tag in page.tags %} {% if tag == 'about' or tag == 'case' or tag == 'contact' %}
+          {% assign showlinks  = false %}
       {% endif %} {% endfor %}
-
 
       {% if site.show_social_icons and showlinks %}
         <div class="social-icons">
