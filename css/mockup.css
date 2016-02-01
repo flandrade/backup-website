@@ -19,10 +19,8 @@
 .css-device--browser {
   width: 100%;
   /* max-width: 100%; set max width here if you need to. */
-  border-top: solid 36px #dfdfdf;
-  border-right: solid 2px #dfdfdf;
-  border-left: solid 2px #dfdfdf;
-  border-bottom: solid 2px #dfdfdf;
+  border-top: solid 36px rgb(0, 0, 87);
+  border-top: solid 36px rgba(0, 0, 87, 0.7);
   border-radius: 4px 4px 0 0;
 }
 
