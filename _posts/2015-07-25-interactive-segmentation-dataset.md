@@ -4,7 +4,7 @@ title:      Novel Dataset for Interactive Segmentation Evaluation
 date:       2015-07-25 18:32:52
 summary:    A novel seed-based user input dataset that extends the well-known GrabCut dataset and the Geodesic Star convexity dataset.
 categories: research
-tags:       segmentation english
+tags:       [segmentation, english, research, evaluation, dataset]
 ---
 
 This dataset consists of 50 images, ground-truth data and two sets of _scribbles_, and it has been made publicly [available](http://sapyc.espe.edu.ec/segevaluation). As can be seen, the images contain an object that could be unambiguously extracted by users.
