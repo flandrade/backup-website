@@ -4,7 +4,7 @@
 */
 
 .css-mb {
-  max-width: 650px; /* Set the desired maximum width of the macbook */
+  max-width: 800px; /* Set the desired maximum width of the macbook */
   min-width: 50px; /* Set the desired minimum width of the macbook */
   margin: 0 auto; /* Align mockup to center */
 }
