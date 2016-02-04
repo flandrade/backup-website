@@ -40,7 +40,11 @@
 
 .github-projects-element {
   background: #f7f7f7;
-  height: 151px;
+  height: 131px;
+}
+
+.github-projects-element:hover {
+  background: linear-gradient(#8e44ad, #c0392b);
 }
 
 .github-projects-description {
