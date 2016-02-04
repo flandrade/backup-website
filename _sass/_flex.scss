@@ -21,12 +21,12 @@
 
 .flex-first { order: -1 }
 .flex-last  { order: 99999 }
-@media (--breakpoint-sm) {
+@media screen and (min-width: $viewport-small){
   .sm-flex { display: flex }
 }
-@media (--breakpoint-md) {
+@media screen and (min-width: $viewport-medium){
   .md-flex { display: flex }
 }
-@media (--breakpoint-lg) {
+@media screen and (min-width: $viewport-large){
   .lg-flex { display: flex }
 }

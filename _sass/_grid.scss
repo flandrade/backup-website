@@ -61,7 +61,7 @@
 .col-12 {
   width: 100%;
 }
-@media ($viewport-small) {
+@media screen and (min-width: $viewport-small){
 
   .sm-col {
     float: left;
@@ -122,7 +122,7 @@
   }
 
 }
-@media ($viewport-medium) {
+@media screen and (min-width: $viewport-medium){
 
   .md-col {
     float: left;
@@ -183,7 +183,7 @@
   }
 
 }
-@media ($viewport-large) {
+@media screen and (min-width: $viewport-large){
 
   .lg-col {
     float: left;
