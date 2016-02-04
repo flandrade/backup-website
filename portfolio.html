@@ -8,14 +8,14 @@ tags: portfolio
 <h1 class="h2 center"><span class="social-title">Github Repositories</span></h1>
 <div class="github-projects-list clearfix">
   {% for repository in site.github.public_repositories %}
-  <div class="sm-col sm-col-6 github-projects-element">
+  <div class="col sm-col-6 github-projects-element">
     <div class="clearfix">
-      <div class="sm-col sm-col-4 p1">
+      <div class="sm-col sm-col-4 github-projects-icon p1">
         {% assign summary = repository.description | split: '#' %}
         {% assign description = summary[0] %}
         {% assign icono = summary[1] %}
         <i class="devicon-{{ icono }}-plain"></i>
-      <div class="sm-col sm-col-8 p1">
+      <div class="col sm-col-8 p1">
         <h4><a href="{{ repository.html_url }}">{{ repository.name }}</a> </h4>
         <div class="github-projects-description mt1">{{ description }}</div>
       </div>
