@@ -1,3 +1,9 @@
+.round {
+  -webkit-border-radius: 12px; 
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+}
+
 .presentation h1, h2, h3, h4 {
   margin-top: 0;
   margin-bottom: 0.4rem;
@@ -34,6 +40,7 @@
 
 .github-projects-element {
   background: #f7f7f7;
+  width: 151px;
 }
 
 .github-projects-description {
