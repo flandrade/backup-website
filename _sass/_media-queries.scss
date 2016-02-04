@@ -70,11 +70,27 @@
   html {
     font-size: 20px;
   }
+
+  .work-title-small{
+    display: none;
+  }
+
+  .work-title{
+    display: flex;
+  }
 }
 
 @media screen and (min-width: $viewport-large + 14) {
   em img {
     max-width: $measure-width + 14;
     margin-left: -7em;
+  }
+
+  .work-title-small{
+    display: none;
+  }
+
+  .work-title{
+    display: flex;
   }
 }
