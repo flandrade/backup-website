@@ -40,16 +40,12 @@
 
 .github-projects-element:hover {
   background: rgb(142,68,173);
-  background: rgba(142,68,173,0.5);
+  background: rgba(142,68,173,0.8);
 }
 
 .github-projects-element a {
   text-decoration: none;
   text-shadow: none;
-}
-
-.github-projects-element:nth-child(2n) {
-  clear: both;
 }
 
 .github-projects-description {
