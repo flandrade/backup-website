@@ -1,5 +1,3 @@
-CSS Source
-
 .container {
   max-width: var(--container-width);
   margin-left: auto;
@@ -63,7 +61,7 @@ CSS Source
 .col-12 {
   width: 100%;
 }
-@media (--breakpoint-sm) {
+@media ($viewport-small) {
 
   .sm-col {
     float: left;
@@ -124,7 +122,7 @@ CSS Source
   }
 
 }
-@media (--breakpoint-md) {
+@media ($viewport-medium) {
 
   .md-col {
     float: left;
@@ -185,7 +183,7 @@ CSS Source
   }
 
 }
-@media (--breakpoint-lg) {
+@media ($viewport-large) {
 
   .lg-col {
     float: left;
