@@ -30,21 +30,26 @@
   background: linear-gradient(to right, #4b6cb7, #182848);
 }
 
-.github-projects-list a {
-  text-decoration: none;
-}
-
 .github-projects-icon {
   font-size: 2.5rem;
 }
 
 .github-projects-element {
   background: #f7f7f7;
-  height: 131px;
+  height: 121px;
 }
 
 .github-projects-element:hover {
-  background: linear-gradient(#8e44ad, #c0392b);
+  background: #cecece;
+}
+
+.github-projects-element a {
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.github-projects-element:nth-child(2n) {
+  clear: both;
 }
 
 .github-projects-description {
