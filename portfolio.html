@@ -10,13 +10,13 @@ tags: portfolio
   {% for repository in site.github.public_repositories %}
   <div class="col sm-col-6 github-projects-element">
     <div class="clearfix">
-      <div class="col sm-col-4 github-projects-icon p1">
+      <div class="col sm-col-3 github-projects-icon p1">
         {% assign summary = repository.description | split: '#' %}
         {% assign description = summary[0] %}
         {% assign icono = summary[1] %}
         <i class="devicon-{{ icono }}-plain"></i>
-      </div>  
-      <div class="col sm-col-8 p1">
+      </div>
+      <div class="col sm-col-9 p1">
         <h4><a href="{{ repository.html_url }}">{{ repository.name }}</a> </h4>
         <div class="github-projects-description mt1">{{ description }}</div>
       </div>
