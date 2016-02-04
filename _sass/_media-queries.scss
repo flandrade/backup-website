@@ -42,14 +42,7 @@
   .social-icons-right {
     text-align: right;
   }
-
-  .work-title-small{
-    display: block;
-  }
-
-  .work-title{
-    display: none;
-  }
+  
 }
 
 @media screen and (min-width: $viewport-medium) {
@@ -57,13 +50,6 @@
     font-size: 18px;
   }
 
-  .work-title-small{
-    display: none;
-  }
-
-  .work-title{
-    display: flex;
-  }
 }
 
 @media screen and (min-width: $viewport-large) {
@@ -71,26 +57,11 @@
     font-size: 20px;
   }
 
-  .work-title-small{
-    display: none;
-  }
-
-  .work-title{
-    display: flex;
-  }
 }
 
 @media screen and (min-width: $viewport-large + 14) {
   em img {
     max-width: $measure-width + 14;
     margin-left: -7em;
-  }
-
-  .work-title-small{
-    display: none;
-  }
-
-  .work-title{
-    display: flex;
   }
 }
