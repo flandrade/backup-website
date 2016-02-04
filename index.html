@@ -9,10 +9,9 @@ layout: default
 </div>
 
 <div class="projects mt4">
-
   <div class="clearfix">
-    <div class="col sm-col-5 md-col-4 p3">
-      <h2 class="white mt3">Selected Work</h2>
+    <div class="col sm-col-5 md-col-4 p3 mt3">
+      <h2 class="white">Selected Work</h2>
     </div>
     <div class="col sm-col-7 md-col-8 p3">
       <div class="css-device css-device--browser" data-url="http://ferandrade.com/quito-crime-map/">
@@ -20,36 +19,9 @@ layout: default
       </div>
     </div>
     <div class="col col-12 p3">
-      <div class="css-device css-device--browser more-details" data-url="http://ferandrade.com/quito-crime-map/">
-        <figure>
-						<div><img class="css-device__image" src="images/nocturna.jpg" alt="Nocturna"></div>
-						<figcaption>
-							<h3>Nocturna Ediciones</h3>
-							<span>Database Normalization, CMS Development and Front-End Implementation</span>
-							<a href="http://ferandrade.com/works/nocturna.html">Take a look</a>
-						</figcaption>
-					</figure>
-      </div>
+      <a href="works/nocturna.html"><div class="css-device css-device--browser" data-url="http://ferandrade.com/quito-crime-map/">
+        <img class="css-device__image" src="images/nocturna.jpg" alt="Nocturna">
+      </div></a>
     </div>
   </div>
-</div>
-
-<div class="github-projects mt4">
-  <h3 class="px4 py2 white"><i class="fa fa-github"></i> Repositories</h3>
-</div>
-<div class="github-projects-list">
-  {% for repository in site.github.public_repositories %}
-  <div class="github-projects-element mt1 mb1 flex">
-    <div class="p1 border github-projects-icon">
-      {% assign summary = repository.description | split: '#' %}
-      {% assign description = summary[0] %}
-      {% assign icono = summary[1] %}
-      <i class="devicon-{{ icono }}-plain"></i>
-    </div>
-    <div class="p1 border">
-      <h4><a href="{{ repository.html_url }}">{{ repository.name }}</a> </h4>
-      <div class="github-projects-description mt1">{{ description }}</div>
-    </div>
-  </div>
-  {% endfor %}
 </div>
