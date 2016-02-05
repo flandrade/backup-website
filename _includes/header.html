@@ -1,7 +1,16 @@
 <header class="site-header px2 px-responsive">
   <div class="mt2 wrap">
     <div class="measure">
-      <a href="{{ site.url }}" class="site-title">{{ site.title }}</a>
+      {% assign showtitle = true %}
+      {% for tag in page.tags %} {% if tag == 'index' %}
+        {% assign showtitle  = false %}
+      {% endif %} {% endfor %}
+
+      {% if showtitle %}
+        <a href="{{ site.url }}" class="site-title">{{ site.title }}</a>
+      {% endif %}
+
+
       <nav class="site-nav">
         {% include navigation.html %}
       </nav>
