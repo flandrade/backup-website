@@ -4,12 +4,12 @@
   border-radius: 12px;
 }
 
-.presentation h1, h2, h3, h4 {
+.presentation h1, h2, h3, h4, .projects h4 {
   margin-top: 0;
   margin-bottom: 0.4rem;
 }
 
-.presentation h1, h2{
+.presentation h1, h2, .projects h4{
   font-family: $heading-font-family;
 }
 
@@ -164,7 +164,8 @@
 
 .projects-overlay {
   position: absolute;
-  top: 0;
+  bottom: 0;
+  margin-top: 10px;
 	display: none;
 	color: #ffffff;
 	background-color: #000000;
@@ -173,5 +174,5 @@
   width: 100%;
   padding: 10px;
   height:100%;
-  z-index: 10;
+  z-index: 4;
 }
