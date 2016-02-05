@@ -9,11 +9,11 @@
   margin-bottom: 0.4rem;
 }
 
-.presentation h1, h2, .projects h4{
+.presentation h1, h2 {
   font-family: $heading-font-family;
 }
 
-.projects h2, .presentation h3, .github-projects h3, .github-projects-list h4{
+.projects h2, .presentation h3, .github-projects h3, .github-projects-list h4, .projects h4{
   font-family: $font-family;
   font-weight: 500;
 }
@@ -164,8 +164,7 @@
 
 .projects-overlay {
   position: absolute;
-  bottom: 0;
-  margin-top: 10px;
+  top: 0;
 	display: none;
 	color: #ffffff;
 	background-color: #000000;
@@ -175,4 +174,10 @@
   padding: 10px;
   height:100%;
   z-index: 4;
+}
+
+.projects-overlay h4{
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
 }
