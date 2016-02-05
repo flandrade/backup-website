@@ -100,7 +100,7 @@
   width: 100%
 }
 
-.button {
+.button-sp {
 	float: left;
 	min-width: 150px;
 	max-width: 250px;
@@ -114,11 +114,11 @@
 	z-index: 1;
 }
 
-.button:focus {
+.button-sp:focus {
 	outline: none;
 }
 
-.button > span {
+.button-sp > span {
 	vertical-align: middle;
 }
 
