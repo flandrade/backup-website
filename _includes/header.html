@@ -1,24 +1,27 @@
+{% assign showtitle = true %}
+{% assign showlinks = true %}
+{% for tag in page.tags %}
+  {% if tag == 'about' or tag == 'work' or tag == 'contact' %}
+    {% assign showlinks  = false %}
+  {% endif %}
+  {% if tag == 'index' %}
+    {% assign showtitle  = false %}
+  {% endif %}
+{% endfor %}
+
 <header class="site-header px2 px-responsive">
   <div class="mt2 wrap">
     <div class="measure">
-      {% assign showtitle = true %}
-      {% for tag in page.tags %} {% if tag == 'index' %}
-        {% assign showtitle  = false %}
-      {% endif %} {% endfor %}
 
       {% if showtitle %}
         <a href="{{ site.url }}" class="site-title">{{ site.title }}</a>
       {% endif %}
 
-
       <nav class="site-nav">
         {% include navigation.html %}
       </nav>
       <div class="clearfix"></div>
-      {% assign showlinks = true %}
-      {% for tag in page.tags %} {% if tag == 'about' or tag == 'work' or tag == 'contact' %}
-          {% assign showlinks  = false %}
-      {% endif %} {% endfor %}
+
 
       {% if site.show_social_icons and showlinks %}
         <div class="social-icons">
