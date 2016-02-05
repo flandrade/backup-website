@@ -2,7 +2,7 @@
   COMMON STUFF FOR CSS DEVICES
 ============================================================================= */
 .css-device {
-  position: absolute;
+  position: relative;
 }
 
 .projects-item:hover > .projects-overlay {
