@@ -5,6 +5,10 @@
   position: absolute;
 }
 
+.projects-item:hover > .projects-overlay {
+	display: block;
+}
+
 .css-device__image {
   display: block;
   margin: 0;
