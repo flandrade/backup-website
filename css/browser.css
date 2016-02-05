@@ -2,7 +2,7 @@
   COMMON STUFF FOR CSS DEVICES
 ============================================================================= */
 .css-device {
-  position: relative;
+  position: absolute;
 }
 
 .css-device__image {
