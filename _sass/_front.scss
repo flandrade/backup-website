@@ -106,7 +106,7 @@
 	max-width: 190px;
 	display: block;
 	padding: 0.7em 1em;
-	background: #f7f7f7;
+	background: none;
 	vertical-align: middle;
   text-align: center;
 	position: relative;
@@ -161,6 +161,7 @@
 }
 
 .button-sp-black {
+  background: #f7f7f7;
   color: #000;
 }
 
