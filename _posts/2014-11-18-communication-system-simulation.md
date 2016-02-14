@@ -7,7 +7,7 @@ categories: research
 tags:       [segmentation, english, research, evaluation, publication]
 ---
 
-<a href="https://github.com/flandrade/communication-system-simulation" class="button-sp button-sp-black wayra wayra-black mb1 clearfix"><i class="fa fa-github"></i> View on Github</a>
+<a href="https://github.com/flandrade/communication-system-simulation" class="button-sp button-sp-black wayra wayra-black mb1"><i class="fa fa-github"></i> View on Github</a>
 <p>
 This program simulates a basic communication system using MATLAB, and it plots BER curves in order to compare the performance of several codification algorithms. It includes the following components:</p>
 
