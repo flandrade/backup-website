@@ -26,15 +26,18 @@ a:active {
 
 // Correct issues with buttons
 button,
-.button {
+.button, .button-sp {
   text-shadow: none;
   background-image: none;
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-.button:hover,
-.button:focus,
-.button:active {
+.button:hover, .button-sp:hover,
+.button:focus, .button-sp:focus,
+.button:active, .button-sp:active {
   text-decoration: none;
   text-shadow: none;
   background-image: none;
+  -webkit-appearance: none;
 }
