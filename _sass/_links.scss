@@ -27,6 +27,7 @@ a:active {
 // Correct issues with buttons
 button,
 .button, .button-sp {
+  text-decoration: none;
   text-shadow: none;
   background-image: none;
   -webkit-appearance: none;
@@ -40,4 +41,5 @@ button,
   text-shadow: none;
   background-image: none;
   -webkit-appearance: none;
+  margin: 0;
 }
