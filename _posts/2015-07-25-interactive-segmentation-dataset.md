@@ -19,4 +19,4 @@ User inputs are provided by means of two sets of _scribbles_ which indicate fore
 
 These sets reflect two degrees of user effort: the second set marks in more detail foreground regions when compared to the first set of _scribbles_.
 
-__NOTE:__ _This note is the second of two notes. See the [presentation entry](http://flandrade.github.io/blog/research/2015/07/24/evaluation-interactive-image-segmentation-/) for more information._
+__NOTE:__ _This note is the second of two notes. See the [presentation entry](http://flandrade.github.io/blog/research/2015/07/24/evaluation-interactive-image-segmentation.html) for more information._
