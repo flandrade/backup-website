@@ -103,11 +103,12 @@
 .button-sp {
   margin: 0 auto;
 	min-width: 150px;
-	max-width: 250px;
+	max-width: 190px;
 	display: block;
 	padding: 0.7em 1em;
 	background: none;
 	vertical-align: middle;
+  text-align: center;
 	position: relative;
 	z-index: 1;
   border: 2px solid;
@@ -134,7 +135,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: 150%;
 	height: 100%;
 	background: #37474f;
 	z-index: -1;
