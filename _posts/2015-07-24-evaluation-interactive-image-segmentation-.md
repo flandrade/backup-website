@@ -20,8 +20,8 @@ In this paper, we present an objective and empirical evaluation of seed-based in
 
 ## Research Notes
 
-* [The Problem of Evaluating Interactive Segmentation](http://ferandrade.com/blog/research/2015/07/24/problem-evaluating-interactive-segmentation.html/)
-* [Novel Dataset for Interactive Segmentation Evaluation](http://ferandrade.com/blog/research/2015/07/25/interactive-segmentation-dataset.html)
+* [The Problem of Evaluating Interactive Segmentation](http://flandrade.github.io/blog/research/2015/07/24/problem-evaluating-interactive-segmentation.html)
+* [Novel Dataset for Interactive Segmentation Evaluation](http://flandrade.github.io/blog/research/2015/07/25/interactive-segmentation-dataset.html)
 
 ## Algorithm Implementations
 
