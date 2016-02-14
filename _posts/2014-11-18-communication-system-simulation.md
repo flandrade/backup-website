@@ -7,7 +7,7 @@ categories: research
 tags:       [segmentation, english, research, evaluation, publication]
 ---
 
-<p class="center"> [Github: Communication System Simulation](https://github.com/flandrade/communication-system-simulation)
+<p class="center"> <a href="https://github.com/flandrade/communication-system-simulation">Github: Communication System Simulation</a>
 </p>
 
 This program simulates a basic communication system using MATLAB, and it plots BER curves in order to compare the performance of several codification algorithms. It includes the following components:
@@ -15,8 +15,6 @@ This program simulates a basic communication system using MATLAB, and it plots B
 <img src="https://raw.githubusercontent.com/flandrade/communication-system-simulation/master/images/diagram.png" width="98%"/>
 
 This simulation not only enables you to analyze to visualize signals, but it also obtains performance metrics such as probability of error (Pe) and bit error rate (BER). Several algorithms are available for quantization, modulation and codification.
-
-__In case you're interested, I also implemented a [CDMA communication system](https://github.com/flandrade/cdma-simulation).__
 
 ### Quantization
 - Uniform
@@ -35,3 +33,5 @@ __In case you're interested, I also implemented a [CDMA communication system](ht
 ### Graphs
 
 <img src="https://raw.githubusercontent.com/flandrade/communication-system-simulation/master/images/graphs.jpg" width="98%"/>
+
+_In case you're interested, I also implemented a [CDMA communication system](https://github.com/flandrade/cdma-simulation)._
