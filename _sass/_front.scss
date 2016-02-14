@@ -112,6 +112,7 @@
 	position: relative;
 	z-index: 1;
   border: 2px solid;
+  color: #fff;
 }
 
 .button-sp:focus {
@@ -156,23 +157,13 @@
 	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 }
 
-.button-sp-white {
-  color: #fff;
+.button-sp-inverse {
+  background: linear-gradient(#8e44ad, #c0392b);
 }
 
-.button-sp-black {
-  background: #ECEFF1;
-  color: #000;
-}
-
-.wayra-white:hover {
+.wayra:hover {
   color: #fff;
 	border-color: #fff;
-}
-
-.wayra-black:hover {
-  color: #fff;
-	border-color: #000;
 }
 
 .projects-overlay {
