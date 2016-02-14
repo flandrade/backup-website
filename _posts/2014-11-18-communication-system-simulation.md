@@ -11,7 +11,7 @@ This program simulates a basic communication system using MATLAB, and it plots B
 
 <img src="https://raw.githubusercontent.com/flandrade/communication-system-simulation/master/images/diagram.png" width="98%"/>
 
-<a href="https://github.com/flandrade/communication-system-simulation" class="button-sp button-sp-inverse wayra mb1"><i class="fa fa-github"></i> View on Github</a>
+<a href="https://github.com/flandrade/communication-system-simulation" class="button-sp button-sp-inverse wayra wayra-inverse mb1"><i class="fa fa-github"></i> View on Github</a>
 
 This simulation not only enables you to analyze to visualize signals, but it also obtains performance metrics such as probability of error (Pe) and bit error rate (BER). Several algorithms are available for quantization, modulation and codification.
 

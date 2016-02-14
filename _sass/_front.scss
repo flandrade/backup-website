@@ -157,13 +157,23 @@
 	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 }
 
+.wayra-inverse:hover::before {
+	opacity: 1;
+	background-color: #fff;
+}
+
 .button-sp-inverse {
-  background: linear-gradient(#8e44ad, #c0392b);
+  background-color: #3a5199;
 }
 
 .wayra:hover {
   color: #fff;
 	border-color: #fff;
+}
+
+.wayra-inverse:hover{
+  color: #000;
+	border-color: #000;
 }
 
 .projects-overlay {
