@@ -7,9 +7,9 @@ categories: projects
 tags:       [maps, english, geojson, project, quito]
 ---
 
-<img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/quitocrimemap.jpg" width="96%"/>
+<img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/quitocrimemap.jpg" width="98%"/>
 
-<a href="http://flandrade.github.io/quito-crime-map/" class="center">Quito Crime Map</a>
+<p class="center"><a href="http://flandrade.github.io/quito-crime-map/">Quito Crime Map</a></p>
 
 Inspired by the [NYPD Crime Map](https://maps.nyc.gov/crime/), I created an [interactive crime map of Quito](http://flandrade.github.io/quito-crime-map/) using [Leaflet](http://leafletjs.com/). This map shows the crime rate by category and year, as reported to Policía Nacional del Ecuador. The administrative areas are shaded according to crime rate per 100,000 population.
 
