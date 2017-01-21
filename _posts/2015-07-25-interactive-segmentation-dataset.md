@@ -7,7 +7,7 @@ categories: research
 tags:       [segmentation, english, research, evaluation, dataset]
 ---
 
-This dataset consists of 50 images, ground-truth data and two sets of _scribbles_, and it has been made publicly [available](http://sapyc.espe.edu.ec/segevaluation). As can be seen, the images contain an object that could be unambiguously extracted by users.
+This dataset consists of 50 images, ground-truth data and two sets of _scribbles_, and it has been made publicly [available](https://github.com/flandrade/dataset-interactive-algorithms). As can be seen, the images contain an object that could be unambiguously extracted by users.
 
 <img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-01.jpg" width="49%"/> <img src="https://raw.githubusercontent.com/flandrade/flandrade.github.io/master/images/segmentation-08.jpg" width="49%"/>
 
